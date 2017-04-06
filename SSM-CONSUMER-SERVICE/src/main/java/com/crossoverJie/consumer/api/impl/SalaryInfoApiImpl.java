@@ -35,7 +35,10 @@ public class SalaryInfoApiImpl implements SalaryInfoApi {
 
         //返回对象
         SalaryInfoRsp salaryInfoRsp = new SalaryInfoRsp() ;
+
+        //调用远程服务
         UserInfoRsp userInfo = userInfoApi.getUserInfo(userId);
+
         salaryInfoRsp.setUsername(userInfo.getUserName());
 
         return salaryInfoRsp;
