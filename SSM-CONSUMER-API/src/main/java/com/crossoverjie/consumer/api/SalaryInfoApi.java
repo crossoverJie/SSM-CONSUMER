@@ -11,7 +11,7 @@ import com.crossoverjie.consumer.dto.SalaryInfoRsp;
 public interface SalaryInfoApi {
 
     /**
-     * 获取用户信息
+     * 获取薪资
      * @param userId
      * @return
      * @throws Exception
