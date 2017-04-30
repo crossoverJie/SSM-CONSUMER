@@ -2,6 +2,7 @@ package com.crossoverJie.consumer.api.impl;
 
 import com.alibaba.dubbo.config.annotation.Service;
 import com.crossoverJie.api.UserInfoApi;
+import com.crossoverJie.dto.UserInfoReq;
 import com.crossoverJie.dto.UserInfoRsp;
 import com.crossoverjie.consumer.api.SalaryInfoApi;
 import com.crossoverjie.consumer.dto.SalaryInfoRsp;
@@ -35,9 +36,10 @@ public class SalaryInfoApiImpl implements SalaryInfoApi {
 
         //返回对象
         SalaryInfoRsp salaryInfoRsp = new SalaryInfoRsp() ;
-
+        UserInfoReq userInfoReq = new UserInfoReq() ;
+        userInfoReq.setId(userId);
         //调用远程服务
-        UserInfoRsp userInfo = userInfoApi.getUserInfo(userId);
+        UserInfoRsp userInfo = userInfoApi.getUserInfo(userInfoReq);
 
         salaryInfoRsp.setUsername(userInfo.getUserName());
 
