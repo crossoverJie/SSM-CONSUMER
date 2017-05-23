@@ -3,7 +3,7 @@
 > 掘金主页: https://gold.xitu.io/user/576d4aaf7db2a20054ea4544
 
 ```
-基于[SSM](https://github.com/crossoverJie/SSM)。
+基于https://github.com/crossoverJie/SSM。
 作为该项目的消费者，更加直观的理解dubbo的服务化。
 ```
 
