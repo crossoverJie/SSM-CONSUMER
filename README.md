@@ -1,16 +1,12 @@
-> 个人博客：http://crossoverJie.top
 
-> 掘金主页: https://gold.xitu.io/user/576d4aaf7db2a20054ea4544
-
-```
 基于[SSM](https://github.com/crossoverJie/SSM)。
-作为该项目的消费者，更加直观的理解dubbo的服务化。
-```
+
+作为该项目的消费者，更加直观的理解 dubbo 的服务化。
 
 [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badge/)
 
 # 联系作者
 
-![weixinchat.jpg](https://ooo.0o0.ooo/2017/04/25/58ff4d5fd9fa3.jpg)
+![weixinchat.jpg](https://crossoverjie.top/uploads/weixinchat.jpg)
 
 
